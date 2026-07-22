@@ -1,0 +1,134 @@
+/* ================= GLOBAL STYLES ================= */
+/* What it does: Resets default margin/padding and sets up clean fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8; /* Soft light gray background */
+  color: #222222; /* Dark slate text for high readability */
+  line-height: 1.6;
+}
+
+/* ================= HEADER / HERO ================= */
+/* What it does: Styles the top banner with dark industrial tones and gold accents */
+.hero {
+  background: linear-gradient(135deg, #1c232a, #2c353d); /* Dark metal finish */
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 5px solid #d4a311; /* Gold/yellow accent bar */
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #f5c518; /* Bold gold text matching the flyer title */
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e0e0e0;
+  margin-bottom: 8px;
+}
+
+.slogan {
+  font-style: italic;
+  color: #a0aab2;
+  margin-bottom: 25px;
+}
+
+/* ================= WHATSAPP BUTTON ================= */
+/* What it does: Creates a big, glowing, thumb-friendly green button */
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25d366; /* Official WhatsApp green */
+  color: #ffffff;
+  padding: 14px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
+/* ================= MAIN CONTENT & CARDS ================= */
+/* What it does: Organizes the services into clean rounded cards */
+.container {
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1c232a;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between cards */
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 5px solid #2c353d; /* Accent strip on the left side */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+  color: #1c232a;
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: #555555;
+  font-size: 0.95rem;
+}
+
+.highlight-box {
+  margin-top: 25px;
+  background-color: #fff8e1; /* Soft yellow highlight tint */
+  border: 1px solid #ffe082;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  color: #5d4037;
+}
+
+/* ================= FOOTER ================= */
+/* What it does: Grounds the page with location info and credits */
+footer {
+  background-color: #1c232a;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+footer h3 {
+  color: #f5c518;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+footer p {
+  color: #b0b8c0;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  font-size: 0.8rem !important;
+  color: #707a82 !important;
+  margin-top: 15px;
+}
